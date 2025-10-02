@@ -19,8 +19,6 @@ Find factorial of large number using array
 Find all strong numbers in a range            
 Print numbers in reverse without using loops
 
-
-----------------------------------------------
 Digit-Based Problems 
 
 Reverse a number
@@ -39,4 +37,3 @@ Replace digits of a number with words (e.g., 123 → "one two three")
 Check if a number is a Kaprekar number
 Find numbers with alternating digits
 
--------------------
