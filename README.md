@@ -21,7 +21,8 @@ Print numbers in reverse without using loops
 
 
 ----------------------------------------------
-Digit-Based Problems
+Digit-Based Problems 
+
 Reverse a number
 Check if a number is palindrome
 Find sum of digits
@@ -37,4 +38,5 @@ Check if a number is palindrome in different bases
 Replace digits of a number with words (e.g., 123 → "one two three")
 Check if a number is a Kaprekar number
 Find numbers with alternating digits
+
 -------------------
