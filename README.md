@@ -18,3 +18,23 @@ Sum of digits until a single digit (digital root)
 Find factorial of large number using array
 Find all strong numbers in a range            
 Print numbers in reverse without using loops
+
+
+----------------------------------------------
+Digit-Based Problems
+Reverse a number
+Check if a number is palindrome
+Find sum of digits
+Find product of digits
+Count digits in a number
+Find largest digit in a number
+Find smallest digit in a number
+Check Harshad number
+Check Strong number
+Sum of even and odd digits separately
+Count frequency of each digit in a number
+Check if a number is palindrome in different bases
+Replace digits of a number with words (e.g., 123 → "one two three")
+Check if a number is a Kaprekar number
+Find numbers with alternating digits
+-------------------
