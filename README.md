@@ -37,3 +37,28 @@ Replace digits of a number with words (e.g., 123 → "one two three")
 Check if a number is a Kaprekar number
 Find numbers with alternating digits
 
+Array-Based Problems
+
+Find largest element in array
+Find smallest element in array
+Find second largest element
+Sort array without built-in functions
+Reverse an array
+Rotate an array (left/right)
+Remove duplicates from array
+Find missing number in 1-N array
+Find duplicate elements in array
+Find pair of elements with given sum
+Merge two arrays
+Find common elements in two arrays
+Count frequency of elements
+Find subarray with maximum sum
+Rearrange array in alternating positive and negative numbers
+Find longest consecutive sequence in array
+Find missing multiple numbers in 1-N array
+Move all zeros to end of array
+Merge overlapping intervals
+Find maximum product of two numbers in array
+Find leaders in an array (elements greater than all to right)
+Check if array is rotation of another
+Find majority element (appearing more than N/2 times)
