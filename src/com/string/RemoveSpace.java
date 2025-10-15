@@ -7,24 +7,11 @@ public class RemoveSpace {
 		Scanner sobj = new Scanner(System.in);
 		System.out.println("Enter the String : ");
 		String str =  sobj.nextLine();
-		int count=0;
-		int j=0;
+		str = str.replaceAll("//s", "");
 		
-		for(int i=0;i<str.length();i++)
-		{
-//			for(int j=i+1;j<str.length();j++)
-//			{
-				char ch1 = str.charAt(i);
-				char ch2 = str.charAt(j);
-				
-				if(ch1 == ch2)
-				{
-					j++;
-					str[j]=ch1;
-					
-//				}
-			}
-		}
+		System.out.println("After removing All space : "+str);
+	
+		
 	}
 
 }
