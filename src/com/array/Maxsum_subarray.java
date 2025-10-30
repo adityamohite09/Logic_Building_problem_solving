@@ -23,7 +23,6 @@ public class Maxsum_subarray {
 			{
 				count++;
 			}
-		
 		}
 		int sum=0;
 		int i,j,k=0;

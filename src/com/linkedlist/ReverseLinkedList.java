@@ -1,7 +1,5 @@
  package com.linkedlist;
-
 public class ReverseLinkedList {
-	
 	public static class Node{
 		int data;
 		Node next;
@@ -10,8 +8,6 @@ public class ReverseLinkedList {
 		{
 			this.data=data;
 		}
-		
-		
 	}
 public static void main(String[] args) {
 	Node a= new Node(9);
@@ -19,7 +15,6 @@ public static void main(String[] args) {
 	Node c= new Node(45);
 	Node d= new Node(74);
 	Node e= new Node(102);
-	
 	a.next=b;
 	b.next=c;
 	c.next=d;
@@ -32,7 +27,6 @@ public static void main(String[] args) {
 	{
 		System.out.print(temp.data+" ");
 		temp= temp.next;
-		
 	}
 	Node next=null;
 	Node prev=null;

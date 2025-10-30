@@ -2,8 +2,6 @@ package com.linkedlist;
 
 public class Delete_element_LinkedList {
 	public static void main(String[] args) {
-		
-
 		Node5 a = new Node5(5);
 		Node5 b = new Node5(87);
 		Node5 c = new Node5(52);
@@ -25,11 +23,9 @@ public class Delete_element_LinkedList {
 		   
 		    count++;  
 		    System.out.println(temp.data);
-		   
 			temp = temp.next;
 		}
-		System.out.println("Length of LinkedList : "+count);
-		
+		System.out.println("Length of LinkedList : "+count);	
 	}
 
 }
