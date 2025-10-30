@@ -1,13 +1,13 @@
 pakage name==com /pakage_name
 
-com/number ===> all number program
+src/com/number ===> all number program
 
-com/digit ===> all digit program
+src/com/digit ===> all digit program
 
-com/String ===> all string program
+src/com/String ===> all string program
 
-com/array ===> all array program
+src/com/array ===> all array program
 
-com/LinkedList ===> all Linkedlist program
+src/com/LinkedList ===> all Linkedlist program
 
-com/stack ===> all stack program
+src/com/stack ===> all stack program
