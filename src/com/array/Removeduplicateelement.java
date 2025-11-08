@@ -15,29 +15,21 @@ public class Removeduplicateelement {
             arr[i] = sobj.nextInt();
         }
 
-        // -------- Step 1: Sort using brute-force (Selection Sort logic) --------
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[i] > arr[j]) {
-                    int temp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = temp;
-                }
-            }
-        }
+       int n=arr.length;
 
         // -------- Step 2: Remove duplicates --------
         int j = 0; // index of last unique element
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] != arr[j]) {
-                j++;
-                arr[j] = arr[i];
+        for (int i = 0; i < arr.length-1; i++) {
+            if (arr[i] != arr[i+1]) {
+               
+                arr[j++] = arr[i];
             }
         }
+        arr[j++]=arr[n-1];
 
         // -------- Step 3: Print result --------
         System.out.println("\nArray after removing duplicates:");
-        for (int i = 0; i <= j; i++) {
+        for (int i = 0; i < j; i++) {
             System.out.print(arr[i] + "\t");
         }
 
