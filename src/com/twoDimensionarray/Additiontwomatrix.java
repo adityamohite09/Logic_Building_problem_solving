@@ -55,7 +55,7 @@ public class Additiontwomatrix {
 		{
 			for(int j=0; j<col2; j++)
 			{
-				System.out.print(crr1[i][j]);
+				System.out.print(crr1[i][j]+" ");
 			}
 			System.out.println();
 		}
