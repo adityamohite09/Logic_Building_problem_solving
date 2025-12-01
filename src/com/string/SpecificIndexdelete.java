@@ -11,12 +11,10 @@ public class SpecificIndexdelete {
 		int index=2;
 		
 //		str = str.substring(0,index) + str.substring(index+1);
-//		
 //		System.out.println("Remove specific index character "+str);
-		
+	
 		StringBuilder bl = new StringBuilder(str);
 	     bl.deleteCharAt(index);
 		System.out.println(bl);
 	}
-
 }

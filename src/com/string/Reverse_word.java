@@ -7,14 +7,10 @@ public class Reverse_word {
 		int i=0;
 		String result =" ";
 		String word[] = str.split(" ");
-		
-	
 		for(i=0; i<word.length;i++)
 		{
 		result=word[i] +" "+result;
 		}
-		
-		
 		System.out.println("Original String : "+copy);
 		System.out.println("Reverse word : "+result);
 	}

@@ -2,7 +2,7 @@ package com.string;
 
 public class SmallestWord_sentence {
 public static void main(String[] args) {
-	String sentence = "my name is aditya";
+	String sentence = "good evening to all";
 	
 	String word[]=sentence.split(" ");
 	String smallest =word[0];

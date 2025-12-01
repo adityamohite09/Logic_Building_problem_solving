@@ -11,6 +11,7 @@ public class ChkfrequancyCharacter {
 		
 		System.out.println("Enter the character that you want to check : ");
 		char chk = sc.next().charAt(0);
+		
 		boolean bret =false;
 		int count=0;
 		for(int i=0; i<str.length();i++)
@@ -20,11 +21,7 @@ public class ChkfrequancyCharacter {
 				count++;
 			}
 		}
-		
-	
 			System.out.println("Count : "+count);
-		
-		
 	}
 
 

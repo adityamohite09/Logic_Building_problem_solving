@@ -8,10 +8,6 @@ public class RemoveSpace {
 		System.out.println("Enter the String : ");
 		String str =  sobj.nextLine();
 		str = str.replaceAll("//s", "");
-		
 		System.out.println("After removing All space : "+str);
-	
-		
 	}
-
 }
