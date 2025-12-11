@@ -14,7 +14,7 @@ public class Removeduplicateelement {
             System.out.print("Enter element " + (i + 1) + ": ");
             arr[i] = sobj.nextInt();
         }
-
+        
        int n=arr.length;
 
         // -------- Step 2: Remove duplicates --------

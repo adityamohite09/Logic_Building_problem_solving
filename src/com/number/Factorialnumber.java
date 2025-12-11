@@ -14,7 +14,6 @@ public class Factorialnumber {
 		FactorialLogic fact = new FactorialLogic(value);
 		int Ret = fact.Display();
 		System.out.println("Factorial of number is : "+Ret);
-
 	}
 
 }

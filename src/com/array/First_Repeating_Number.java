@@ -19,21 +19,18 @@ public class First_Repeating_Number {
 					break;
 				}
 			}
-			
 			if(bret)
 			{
 				continue;
 			}
-			
 			count=0;
-			for(int k=0;k<arr.length;k++)
+			for(int k=0;k < arr.length;k++)
 			{
-				if(arr[i]==arr[k])
+				if(arr[i] == arr[k])
 				{
 					count++;
 				}
 			}
-			
 			System.out.println(arr[i]+" count : "+count);
 		}
 	      System.out.println("index of element first repeting :"+(catchre+1));
