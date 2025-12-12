@@ -14,15 +14,13 @@ public class Anagrams_String {
 		String str2 = sobj.nextLine();
 		int count=0;
 		
-		
 		char arr1[]=str.toCharArray();
 		char arr2[]=str2.toCharArray();
 		
 		Arrays.sort(arr1);
 		Arrays.sort(arr2);
 		
-		if(Arrays.equals(arr1, arr2) && (arr1.length == arr2.length))
-			
+		if(Arrays.equals(arr1, arr2) && (arr1.length == arr2.length))	
 		{
 			System.out.println("Anagrams");
 		}
